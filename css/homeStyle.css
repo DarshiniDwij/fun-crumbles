@@ -1,0 +1,80 @@
+.topHeader{
+    
+    background-color: rgb(251 242 247);
+    
+}
+
+.input-group-text{
+    width: 40px;
+    position: relative;
+}
+
+.input-group-text input{
+    position: relative;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.bd-footer{
+
+    background-color: rgb(251 242 247);
+}
+
+
+
+ html, body {
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+body {
+    padding: 0 120px;
+}
+
+#main {
+    margin: 0 auto; /* in case you want to set a fixed width on this as well */
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    left:0;
+    right:auto;
+}
+
+.products{
+    background-color: #F2F3F4;
+}
+
+.custom-btn{
+
+    background-color:#573146;
+    color:white;
+        
+}
+
+
+
+/* .navbar-nav {
+    list-style-type: none;
+    display: inline-block;
+   
+  }
+  
+.nav-item {
+    float: right;
+    display: inline-block;
+  } */
+  
+/* .nav-item a {
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  nav-item a:hover {
+    background-color: #111111;
+  }  */
