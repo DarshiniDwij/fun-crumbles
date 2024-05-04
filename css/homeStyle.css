@@ -55,6 +55,14 @@ body {
         
 }
 
+#login-btn{
+    background-color: rgb(251 242 247);
+}
+
+.form-check-input:checked {
+    background-color: #573146 !important;
+    border-color: #573146 !important;
+}
 
 
 /* .navbar-nav {
