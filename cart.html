@@ -3,6 +3,7 @@
 
 <head>
   <title>Shopping Cart</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="stylesheet" a href="/css/homeStyle.css">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,6 +26,7 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -46,7 +48,7 @@
                   aria-label="Search" aria-describedby="search-addon" />
                 <span class="input-group-text border-0" id="search-addon">
                   <a href="#">
-                    <i class="fas fa-search"></i>
+                    <!-- <i class="fas fa-search"></i> -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                       class="bi bi-search" viewBox="0 0 16 16">
                       <path
@@ -70,7 +72,7 @@
     <section class="h-100 h-custom" style="background-color: #eee;">
 
 
-      <div class="container py-5 h-100">
+      <div class="container billing-section py-5 h-100">
         <div class="row">
           <div class="col-lg-8">
             <div class="container customer-details">
@@ -118,11 +120,11 @@
                     <div class="row">
                       <div class="col-50">
                         <label for="expyear">Exp Year</label>
-                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                        <input type="text" id="expyear" name="expyear" placeholder="2028">
                       </div>
                       <div class="col-50">
                         <label for="cvv">CVV</label>
-                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                        <input type="password" id="cvv" name="cvv" placeholder="***">
                       </div>
                     </div>
                   </div>
@@ -131,7 +133,7 @@
                 <label>
                   <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
                 </label>
-                <input type="submit" value="Continue to checkout" class="btn">
+                <input type="submit" value="Continue to checkout" class="checkout-btn">
               </form>
             </div>
           </div>
@@ -170,7 +172,7 @@
                       <h6 class="fw-normal mb-0">2</h6>
                     </div>
                     <div style="width: 80px;">
-                      <h6 class="mb-0">&#x20B9;90</h6>
+                      <h6 class="mb-0">&#x20B9;110.00</h6>
                     </div>
                     <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
                   </div>
@@ -188,7 +190,7 @@
                         class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
                     </div>
                     <div class="ms-3">
-                      <h6>Chocolate Cookie</h6>
+                      <h6>Choco Cookie</h6>
                     </div>
                   </div>
                   <div class="d-flex flex-row align-items-center">
@@ -196,7 +198,7 @@
                       <h6 class="fw-normal mb-0">2</h6>
                     </div>
                     <div style="width: 80px;">
-                      <h6 class="mb-0">&#x20B9;100</h6>
+                      <h6 class="mb-0">&#x20B9;100.00</h6>
                     </div>
                     <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
                   </div>
@@ -222,7 +224,7 @@
                       <h6 class="fw-normal mb-0">1</h6>
                     </div>
                     <div style="width: 80px;">
-                      <h6 class="mb-0">&#x20B9;100</h6>
+                      <h6 class="mb-0">&#x20B9;100.00</h6>
                     </div>
                     <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
                   </div>
@@ -248,7 +250,7 @@
                       <h6 class="fw-normal mb-0">1</h6>
                     </div>
                     <div style="width: 80px;">
-                      <h6 class="mb-0">&#x20B9;100</h6>
+                      <h6 class="mb-0">&#x20B9;100.00</h6>
                     </div>
                     <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
                   </div>
@@ -270,7 +272,7 @@
                       <h6 class="fw-normal mb-0">6</h6>
                     </div>
                     <div style="width: 80px;">
-                      <h6 class="mb-0">&#x20B9;600.00</h6>
+                      <h6 class="mb-0">&#x20B9;410.00</h6>
                     </div>
                     <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
                   </div>

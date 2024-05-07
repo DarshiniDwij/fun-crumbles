@@ -33,17 +33,21 @@
   }
 
   .container {
-    background-color: white;
+    /* background-color: white; */
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     border-radius: 3px;
+  }
+
+  .billing-section{
+    background-color: white;
   }
 
   .customer-details {
     background-color: rgb(251 242 247);
   }
 
-  input[type=text] {
+  input[type=text], input[type=password] {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
@@ -62,7 +66,7 @@
     font-size: 24px;
   }
 
-  .btn {
+  .checkout-btn {
     background-color: #04AA6D;
     color: white;
     padding: 12px;
@@ -74,7 +78,7 @@
     font-size: 17px;
   }
 
-  .btn:hover {
+  .checkout-btn:hover {
     background-color: #45a049;
   }
 
