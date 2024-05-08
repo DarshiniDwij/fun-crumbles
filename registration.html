@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Cookie Shop</title>
-  <link rel="stylesheet" a href="/css/homeStyle.css">
+  <link rel="stylesheet" href="/css/homeStyle.css">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -45,23 +45,23 @@
           <form>
 
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
             </div>
 
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="email1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="password1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password1">
             </div>
 
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="password2" class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" id="password2">
             </div>
 
             <div>
@@ -83,14 +83,14 @@
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+              <label class="form-check-label" for="flexRadioDefault3">
                 Word of mouth
               </label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-              <label class="form-check-label" for="flexRadioDefault2">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+              <label class="form-check-label" for="flexRadioDefault4">
                 Others
               </label>
             </div>
@@ -101,8 +101,8 @@
                 <p>Returning Customer?<a href="/login.html" style="text-decoration: none; color:#802055;">Login-></a></p>
               </div>
             </div>
-        </div>
         </form>
+      </div>
 
         <div class="col-lg-6 ">
           <img src="/images/register1.png" alt="cookie-with-coffee" style="height:500px;width: 550px;margin-left: 60px;">
@@ -110,7 +110,6 @@
         </div>
       </div>
       
-    </div>
 
 
 
@@ -124,61 +123,58 @@
 
   <footer class="bd-footer py-5 mt-5">
     <div class="container py-3">
-      <div class="row">
-        <div class="col-6 col-lg-3  mb-3  mx-auto" style="width: 200px;">
-          <h5>SHOP:</h5>
-          <ul class="list-unstyled">
-            <div class="pt-3">
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">About</a></li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">FAQ</a></li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Shiping/Pick Up</a></li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Store policy</a></li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Contact me</a></li>
-            </div>
-          </ul>
-        </div>
+        <div class="row">
+                <div class="col-6 col-lg-3  mb-3  mx-auto" style="width: 200px;">
+                <h5 id="shop">SHOP:</h5>
+                <ul class="list-unstyled" style="padding-top: 3px;" >
+                    <!-- <div class="pt-3"> -->
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">About</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">FAQ</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Shiping/Pick Up</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Store policy</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Contact me</a></li>
+                  <!-- </div> -->
+                </ul>
+                </div>
 
 
-        <div class="col-6 col-lg-3 mb-3  mx-auto" style="width: 200px;">
-          <h5>OPENING HOURS:</h5>
-          <ul class="list-unstyled">
-            <div class="pt-3">
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Mon - Fri: 7am - 10pm</a></li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Saturday: 8am - 10pm</a></li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Sunday: 8am - 11pm</a></li>
-            </div>
-          </ul>
+              <div class="col-6 col-lg-3 mb-3  mx-auto" style="width: 200px;">
+                <h5 id="hours">OPENING HOURS:</h5>
+                <ul class="list-unstyled" style="padding-top: 3px;">
+                  <!-- <div class="pt-3">   -->
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Mon - Fri: 7am - 10pm</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Saturday: 8am - 10pm</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Sunday: 8am - 11pm</a></li>
+                  <!-- </div> -->
+                </ul>
+              </div>
+
+              <div class="col-6 col-lg-3 mb-3  mx-auto" style="width: 200px;">
+                <h5 id="address">ADDRESS:</h5>
+                <ul class="list-unstyled" style="padding-top: 3px;">
+                  <!-- <div class="pt-3">   -->
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">2, Church St,Shanthala Nagar</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Ashok Nagar,Banglore 560001</a></li>
+                  <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Tel: 123-456-7890</a></li>
+                  <!-- </div> -->
+                </ul>
+              </div>
+
+              <div class="col-6 col-lg-3 mb-3  mx-auto" style="width: 200px;">
+                <h5 id="get">GET IT FRESH:</h5>
+                <!-- <ul class="list-unstyled" style="padding-top: 3px;">
+                  <li class="mb-2"><input type="text" placeholder="Enter Your Email Here:"></li>
+                  <button type="button" class="btn btn-light">SUBSCRIBE NOW</button>
+                </ul> -->
+
+                <input type="text" placeholder="Enter Your Email Here:">
+                <button type="button" class="btn btn-light" style="margin-top:8px;">SUBSCRIBE NOW</button>
+              </div>
         </div>
 
-        <div class="col-6 col-lg-3 mb-3  mx-auto" style="width: 200px;">
-          <h5>ADDRESS</h5>
-          <ul class="list-unstyled">
-            <div class="pt-3">
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">2, Church St,Shanthala Nagar</a>
-              </li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Ashok Nagar,Banglore 560001</a>
-              </li>
-              <li class="mb-2"><a href="#" style="color: black; text-decoration: none;">Tel: 123-456-7890</a></li>
-            </div>
-          </ul>
-        </div>
-
-        <div class="col-6 col-lg-3 mb-3  mx-auto" style="width: 200px;">
-          <h5>GET IT FRESH:</h5>
-          <ul class="list-unstyled">
-            <div class="pt-3"></div>
-            <li class="mb-2"><input type="text" placeholder="Enter Your Email Here:"></li>
-            <!-- <li class="mb-2"><input type="submit" value="SUBSCRIBE NOW"></li> -->
-            <button type="button" class="btn btn-light">SUBSCRIBE NOW</button>
-        </div>
-        </ul>
-      </div>
+        
     </div>
-
-
-    </div>
-
-  </footer>
+</footer>
 
   </div>
 

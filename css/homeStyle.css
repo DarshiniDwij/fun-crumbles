@@ -70,6 +70,24 @@ body {
     height:600px;
   }
 
+h5{
+    text-align: center;
+}
+
+#shop{
+    text-align: left;
+}
+
+#hours{
+    text-align: left;
+}
+#address{
+    text-align: left;
+}
+#get{
+    text-align: left;
+}
+
 
 /* .navbar-nav {
     list-style-type: none;
