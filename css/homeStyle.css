@@ -88,6 +88,18 @@ h5{
     text-align: left;
 }
 
+#navbarSupportedContent1{
+      
+    flex-direction: column-reverse !important;
+    flex-wrap: wrap !important;
+    align-content: flex-end !important;
+  }
+
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+
 
 /* .navbar-nav {
     list-style-type: none;
