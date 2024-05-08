@@ -65,6 +65,11 @@ body {
     border-color: #573146 !important;
 }
 
+.carousel-inner > .carousel-item > img {
+    width:593px;
+    height:600px;
+  }
+
 
 /* .navbar-nav {
     list-style-type: none;
