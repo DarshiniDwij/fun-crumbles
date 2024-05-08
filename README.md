@@ -8,6 +8,8 @@ Here I have used Bootstrap jumbotron,cards,banner to give look and feel for this
 - Part2: Shop Page.
 - Part3: Login and Registration page.
 - Part4: Ecommerce Shopping Cart.
+- Part5: Abbout Us.
+- Part6: Contact.
 
 Here you will find all the images I'm using to create this responsive ecommerce website.
 
@@ -25,6 +27,14 @@ Here you will find all the images I'm using to create this responsive ecommerce 
 
 ### Part4:
 <img width="1429" alt="CartPage" src="https://github.com/darshinisheku/fun-crumbles/assets/167191947/228298a9-2544-4468-91b5-0b6e0223876f">
+
+### Part5:
+![alt text](about.png)
+
+### Part6:
+![alt text](Contact.png)
+
+
 
 
 
